@@ -13,3 +13,11 @@
     flex-wrap: wrap;
     padding: 30px;
 }
+@media (max-width: 1200px) {
+    .library .sections {
+        padding: 30px;
+    }
+    .library .sections .item {
+        margin: 20px;
+    }
+}
