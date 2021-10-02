@@ -1,0 +1,10 @@
+.data .des {
+    font-family: 'Cairo';
+}
+.data li {
+    padding: 20px 10px;
+    display: block;
+}
+.data .usage {
+    font-family: 'Cairo';
+}

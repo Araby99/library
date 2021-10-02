@@ -1,0 +1,15 @@
+.library .container {
+    font-family: 'Cairo';
+    padding: 30px;
+    text-align: right;
+}
+.library .title {
+    font-family: 'Cairo-Bold';
+}
+.library .sections {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
