@@ -3,6 +3,7 @@ import Nav from './component/Nav';
 import Home from './component/Home';
 import About from './component/About';
 import Library from './component/Library';
+import Lessons from './component/Lessons';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path="/library">
           <Library />
+        </Route>
+        <Route path="/lessons">
+          <Lessons />
         </Route>
       </Switch>
     </div>

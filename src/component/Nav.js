@@ -17,6 +17,9 @@ function Nav() {
                     <li>
                         <Link to="/library">المكتبة</Link>
                     </li>
+                    <li>
+                        <Link to="/lessons">الدروس</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

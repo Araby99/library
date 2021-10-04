@@ -11,14 +11,14 @@ nav > .container {
 nav img {
     height: 100px;
 }
-ul li {
+nav ul li {
     display: inline-block;
     margin-left: 50px;
     font-size: 1.5rem;
     font-family: 'Cairo-Bold';
 }
 @media (max-width: 1200px) {
-    ul li {
+    nav ul li {
         font-size: 1.2rem;
         margin-left: 20px;
     }

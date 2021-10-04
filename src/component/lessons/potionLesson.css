@@ -1,0 +1,18 @@
+.potionlesson ul {
+    margin: 2rem 0;
+    padding: 0 30px;
+    direction: rtl;
+}
+.potionlesson ul li {
+    display: block;
+}
+.potionlesson ol {
+    direction: rtl;
+}
+.potionlesson .lesson-item {
+    padding: 30px;
+}
+.potionlesson h3,
+.potionlesson h5 {
+    font-family: "Cairo-Bold";
+}

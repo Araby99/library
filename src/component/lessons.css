@@ -1,0 +1,39 @@
+.lessons {
+    font-family: "Cairo";
+    padding: 20px;
+    text-align: right;
+}
+
+.lessons .items {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lessons .lesson {
+    flex: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 50px 20px;
+    box-shadow: 0 0 20px 0 #ccc;
+    border-radius: 10px;
+}
+.lessons .lesson h3 {
+    font-family: "Cairo-Bold";
+    margin-bottom: 30px;
+}
+.lessons .lesson .prof {
+    font-family: "Cairo-Bold";
+}
+@media (max-width: 1200px) {
+    .lessons .items {
+        flex-direction: column;
+    }
+    .lessons .lesson {
+        margin: 20px auto;
+    }
+}
